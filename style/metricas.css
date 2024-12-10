@@ -1,0 +1,44 @@
+.metricas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3.5em 7em 5em;
+}
+
+.container__metricas {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5em;
+}
+
+.metricas__span {
+  font-size: 3.75rem;
+  font-family: var(--font-2);
+  color: var(--cor-botao-cabecalho);
+}
+
+.metricas__titulo {
+  font-size: 1.125rem;
+  font-family: var(--font-1);
+  color: var(--cor-titulo);
+  padding: 1em 0;
+}
+
+.metricas__paragrafo {
+  font-size: 1rem;
+  font-family: var(--font-2);
+  color: var(--cor-lista-cabecalho);
+}
+
+@media (max-width: 768px) {
+  .metricas {
+    margin-top: 3em;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  .container__metricas {
+    border: 1px solid var(--cor-lista-cabecalho);
+    padding: 1.5em;
+  }
+}

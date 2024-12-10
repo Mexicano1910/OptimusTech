@@ -1,0 +1,157 @@
+.container__vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 10em 0;
+}
+
+.vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 5em 0;
+}
+
+.vagas__texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 5em 0;
+}
+
+.vagas__span {
+  font-size: 0.875rem;
+  font-family: var(--font-2);
+  color: var(--cor-botao-cabecalho);
+  border: 0.1em solid #dcdcdc;
+  border-radius: 1rem;
+  padding: 0.5em;
+}
+
+.vagas__titulo {
+  font-size: 2.25rem;
+  font-family: var(--font-1);
+  color: var(--cor-titulo);
+  padding: 0.7em;
+}
+
+.vagas__paragrafo {
+  font-size: 1.25rem;
+  font-family: var(--font-2);
+  color: var(--cor-lista-cabecalho);
+}
+
+.container__vagasAbertas {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.vagas-abertas__texto-1 {
+  display: flex;
+  align-items: center;
+}
+
+.container__vagas-abertas {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.vagas-abertas__texto {
+  border: 0.1em solid #eaecf0;
+  border-radius: 1rem;
+  padding: 0 30em 0 0;
+  gap: 10em;
+}
+
+.vagas-abertas__titulo {
+  font-size: 1.25rem;
+  font-family: var(--font-1);
+  color: var(--cor-titulo);
+  margin: 0 0 1em 0;
+}
+
+.vagas-abertas__titulo-1 {
+  font-size: 1.125rem;
+  font-family: var(--font-1);
+  color: var(--cor-titulo);
+  padding: 1em;
+}
+
+.vagas-abertas__paragrafo {
+  font-size: 1rem;
+  font-family: var(--font-2);
+  color: var(--cor-lista-cabecalho);
+  padding: 1em;
+}
+
+@media (max-width: 768px) {
+  .container__vagas {
+    margin: 0 1em 5em 1em;
+  }
+
+  .vagas {
+    margin: 0 1em 3em 1em;
+  }
+
+  .vagas__texto {
+    margin: 0 1em 3em 1em;
+  }
+
+  .vagas__span {
+    font-size: 0.75rem;
+    padding: 0.4em;
+    border-radius: 0.8rem;
+  }
+
+  .vagas__titulo {
+    font-size: 2rem;
+    padding: 0.5em 0 0.5em 0;
+    line-height: 120%;
+  }
+
+  .vagas__paragrafo {
+    font-size: 1.125rem;
+    line-height: 140%;
+  }
+
+  .imagem {
+    text-align: center;
+    width: 24em;
+  }
+
+  .container__vagasAbertas {
+    gap: 2em;
+  }
+
+  .vagas-abertas__texto-1 {
+    display: block;
+  }
+
+  .container__vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .vagas-abertas__texto {
+    padding: 0 1.5em;
+    gap: 2em;
+  }
+
+  .vagas-abertas__titulo {
+    font-size: 1.125rem;
+    margin: 0 0 0.5em 0;
+  }
+
+  .vagas-abertas__titulo-1 {
+    font-size: 1rem;
+    padding: 0.8em;
+  }
+
+  .vagas-abertas__paragrafo {
+    font-size: 0.875rem;
+    padding: 0.8em;
+  }
+}

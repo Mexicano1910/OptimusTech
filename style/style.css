@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+@import url("header.css");
+@import url("sobreNos.css");
+@import url("metricas.css");
+@import url("vagas.css");
+@import url("depoimentos.css");
+@import url("formulario.css");
+
+:root {
+  --cor-fundo: #ffffff;
+  --cor-lista-cabecalho: #667085;
+  --cor-botao-cabecalho: #8e2424;
+  --cor-titulo: #101828;
+  --cor-depoimentos: rgba(195, 25, 25, 0.03);
+  --cor-formulario: rgba(249, 250, 251, 1);
+  --cor-spanFooter: #98a2b3;
+
+  --font-1: "Krona One", sans-serif;
+  --font-2: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--cor-fundo);
+}
